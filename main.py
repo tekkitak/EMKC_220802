@@ -1,3 +1,3 @@
-h,j,k,l=map(int,map(input,['']*4))
-i=-(-(l-k)//(h-j))
-print(f"{i},{i*(h+j)}")
+h,j,k,l=map(int,open(0))
+i=(k-l)//(h-j)
+print(f"{-i},{-i*(h+j)}")
